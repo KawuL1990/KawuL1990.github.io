@@ -1,0 +1,28 @@
+.MemberCard{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    text-align:center;
+}
+.MemberCard__name{
+    font-family: fantasy;
+    font-size: 50px;
+    top: 70%;
+    position: absolute;
+    width: 100%;
+    color: #ff6400;
+}
+.MemberCard__career{
+    width: 100%;
+    font-family: fantasy;
+    font-size: 30px;
+    top: 85%;
+    position: absolute;
+    color:#ff6400;
+}
+.MemberCard__img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}

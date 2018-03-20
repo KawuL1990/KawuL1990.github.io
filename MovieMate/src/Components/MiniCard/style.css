@@ -1,0 +1,35 @@
+.MiniCard{
+    display: flex;
+    justify-content: space-between;
+    background: #0c161e;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    min-height: 140px;
+}
+.MiniCard:hover{
+    box-shadow: 5px 5px 12px 0 #534d4d;
+}
+.MiniCard__img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.MiniCard__content{
+    width: 110px;
+}
+.MiniCard__filmName,
+.MiniCard__releas{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.MiniCard__rating{
+    font-size: 16px;
+}
+.btn__delete,
+.btn__delete:hover{
+    box-shadow: 0px 0px 0px 0px;
+}

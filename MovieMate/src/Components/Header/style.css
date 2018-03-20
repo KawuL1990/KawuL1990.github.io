@@ -1,0 +1,12 @@
+.Header {
+    border-bottom: 4px solid #e2b100;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.Header__title {
+    margin-left: 25px;
+}

@@ -1,0 +1,15 @@
+.Stack{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.Stack__item{
+    background: white;
+    border-radius: 10px;
+    padding: 50px 20px;
+    box-shadow: inset 0px 0px 30px 5px #2196f3, 0px 0px 30px 5px #2196f3;
+}
+.Stack__item:hover{
+    box-shadow: inset 0px 0px 30px 5px #e2b100, 0px 0px 30px 5px #e2b100;
+}

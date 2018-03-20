@@ -1,0 +1,19 @@
+.AboutPage__list{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.AboutPage__list__item{
+    display: inline-block;
+}
+.AboutPage__list__link{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.AboutPage__list__link:hover{
+    color: #ff8f00;
+    border-bottom: 4px solid #2196f3;
+}
