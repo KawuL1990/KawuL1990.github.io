@@ -1,0 +1,559 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'league_gothiccondensed_italic';
+    src: url('../font/leaguegothic-condenseditalic-webfont.eot');
+    src: url('../font/leaguegothic-condenseditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/leaguegothic-condenseditalic-webfont.woff2') format('woff2'),
+         url('../font/leaguegothic-condenseditalic-webfont.woff') format('woff'),
+         url('../font/leaguegothic-condenseditalic-webfont.ttf') format('truetype'),
+         url('../font/leaguegothic-condenseditalic-webfont.svg#league_gothiccondensed_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('../font/leaguegothic-condensedregular-webfont.eot');
+    src: url('../font/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
+         url('../font/leaguegothic-condensedregular-webfont.woff') format('woff'),
+         url('../font/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+         url('../font/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'league_gothicitalic';
+    src: url('../font/leaguegothic-italic-webfont.eot');
+    src: url('../font/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/leaguegothic-italic-webfont.woff2') format('woff2'),
+         url('../font/leaguegothic-italic-webfont.woff') format('woff'),
+         url('../font/leaguegothic-italic-webfont.ttf') format('truetype'),
+         url('../font/leaguegothic-italic-webfont.svg#league_gothicitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../font/leaguegothic-regular-webfont.eot');
+    src: url('../font/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../font/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../font/leaguegothic-regular-webfont.font/lar-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+    background-position: center top;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: auto;
+}
+
+/* HEADER */
+
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;;
+        justify-content: center;
+    }
+
+    .header__center {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'league_gothicregular';
+    }
+    
+    
+    .logo {
+        margin-top: 55px;
+        font-size: 48px;
+    }
+
+.logo a {
+  color: black;
+  text-decoration: none;
+}
+
+   .header__nav {
+    display: none;
+  }
+
+
+    .header__center a > span {
+      background: -webkit-linear-gradient(#745083, #372a3e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+ 
+    .header__menu {
+        margin-top: 25px;
+        width: 240px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        text-shadow: 0 0 10px black;
+        
+    }
+    
+    .menu__items li {
+        list-style-type: none;
+        font-size: 24px;
+        position: relative;
+    }   
+    
+    .menu__items a {
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: #edbfff;
+    }
+    
+    .dropdown {
+        position: absolute;
+        display: none;
+        background: rgba(65, 55, 73, 0.9); 
+        width: 240px;
+        margin: 0 auto;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        z-index: 2;
+    }
+    
+    .dropdown li {
+      border-top: 1px solid #523f5a;
+      border-bottom: 2px solid #36283e;
+      padding: 5px 0;
+    }
+    
+    .menu__items > li:hover {
+        background: rgba(65, 55, 73, 0.9); 
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    .menu__items li:hover .dropdown {
+        display: block;
+    }    
+
+    .dropdown li:hover {
+      border-top: 1px solid #523f5a;
+      border-bottom: 2px solid #edbfff;  
+      background: #2b2231;
+}
+    
+    .dropdown a {
+        color: white;
+        text-decoration: none;
+    }
+
+.dropdown :nth-child(4) {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.slider {
+      margin-top: 125px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+.slider__center {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 960px;
+  width: 75%;
+}
+
+.text {
+  display: none;
+}
+
+.iphone {
+    display: none;
+}
+
+    .slider__title {
+        font-size: 36px;
+        color: white;
+      font-family: 'league_gothicregular';
+    }
+    
+    .slider h2 {
+        font-size: 18px;
+        color: #edbfff;
+      overflow: hidden;
+      height: 25px;
+      font-family: 'league_gothicregular';
+    }
+
+.slider__text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: white;
+}
+
+.arrow__left {
+    width: 30px;
+    height: 34px;
+    background-image: url(../img/arrow.png);
+}
+
+.arrow__right {
+    width: 30px;
+    height: 34px;
+    background-image: url(../img/arrow.png);
+    background-position: -27px -0px
+}
+    
+.arrow__left a,
+.arrow__right a {
+      display: block;
+    height: 33px;
+    width: 23px;
+}
+
+.pagination-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+    /* MAIN */
+
+main {
+  background: linear-gradient(#745083, #372a3e);
+}
+    
+    .main__center {
+        display: flex;
+        flex-direction: column;
+      margin: auto;
+      padding: 80px 0px
+    }
+
+
+    
+    .info {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        width: 90%;
+        color: white;
+/*        margin: 20px 0 20px 0;*/
+    }
+    
+    .seting {
+        background-image: url(../img/icons.png);
+        min-width: 24px;
+        height: 27px;
+        margin: 10px 10px 0 0;
+    }
+    
+    .chat {
+        background-position: -24px 0;
+        background-image: url(../img/icons.png);
+        min-width: 24px;
+        height: 27px;
+        margin: 10px 10px 0 0;
+    }
+    
+    .melody {
+        background-position: -48px 0;
+        background-image: url(../img/icons.png);
+        min-width: 24px;
+        height: 27px;
+        margin: 10px 10px 0 0;
+    }
+    
+    .info h1 {
+        font-size: 30px;
+        font-family: 'league_gothicregular';
+    }
+    
+    .info p {
+/*
+        font-size: 14px;
+        font-family:"Open Sans";
+*/
+          font-size: 14px;
+    font-family: "Open Sans";
+    white-space: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 60px;
+    }
+    
+    .info a {
+        color: white;
+        text-decoration: none;
+        align-self: flex-end;
+        font-family: 'league_gothicregular';
+    }
+    
+.block{
+  display: flex;
+  flex-direction: column;
+}
+
+.block a {
+  margin-top: 15px;
+  align-self: flex-end;
+}
+
+.block a:hover {
+  text-shadow: 0 0 10px white;
+}
+    
+    /* COMMENT*/
+
+.comment {
+  background: #f9f9f9;
+}
+    
+    .comment__center {
+        position: relative;
+        display: flex;
+        width: 100%;
+      margin: auto;
+        flex-direction: column;
+      
+        font-family: 'league_gothicregular';
+    }
+    
+    .comment .foto {
+        width: 70px;
+        position: absolute;
+        top: 50px;
+    }
+    
+    .comment__block {
+        box-sizing: border-box;
+        align-self: flex-end;
+        padding: 15px 40px;
+        background: white;
+        margin: 40px 0 0 40px;
+    }
+    
+    .comment__block h2 {
+        font-size: 30px;
+    }
+    
+    .comment__block p {
+        font-family: "Open Sans";
+    }
+    
+    .comment__head {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .comment__head--starts {
+        color: pink;
+    }
+    
+.pagination__list{
+  text-align: center;
+  margin: 25px 0px;
+} 
+
+.pagination__item {
+  display: inline-block;
+}
+
+.pagination__link {
+  display: block;
+  height: 16px;
+  width: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: white;
+}
+
+.pagination__link:hover {
+  background: black;
+  box-shadow: inset 0 0 12px white;
+}
+    
+    .updates__block {
+        display: flex;
+        flex-direction: column;
+        width: 89%;
+        align-self: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    
+    .updates {
+        display: flex;
+        flex-direction: row;
+        margin: 8px 0 8px 0;
+        text-overflow:clip; 
+        overflow: hidden;
+    }
+    
+    .updates__main__title {
+        font-size: 30px;
+        font-family: 'league_gothicregular';
+        font-weight: bold;
+        align-self: flex-start;
+        
+    }
+    
+    .inner p {
+        font-size: 16px;
+        font-family: 'Open Sans';
+        overflow: hidden; /* Обрезаем все, что не помещается в область */
+        text-overflow: ellipsis; /* Добавляем многоточие */
+      height: 20px;
+    }
+    
+    .inner__title {
+        font-size: 24px;
+    }
+    
+    .fon {
+        min-width: 50px;
+        height: 50px;
+        content: " ";
+        background-image: url(../img/fon.png);
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    
+    .fon__2 {
+        background-position: -50px -13px;
+    }
+    
+    .fon__3 {
+        background-position: -30px -13px;
+    }
+    
+    .post {
+        align-self: flex-end;
+        font-size: 18px;
+        font-family: 'league_gothicregular';
+    }
+
+.post a {
+  text-decoration: none;
+  color: black;
+}
+
+/* BRANDS */
+    
+    .brands {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .brand {
+        width: 70px;
+        height: 64px;
+        content: " ";
+        margin: 30px 45px;
+}
+    
+    .icon1 {
+        background-image: url(../img/brands.png);
+        background-position: -20px top;
+        cursor: pointer;   
+    }
+    
+    .icon2 {
+        min-width: 21px;
+        background-image: url(../img/brands.png);
+        background-position: -147px top;
+        cursor: pointer;
+    }
+    
+    .icon3 {
+        min-width: 20px;
+        background-image: url(../img/brands.png);
+        background-position: -19px -74px;
+        cursor: pointer;
+    }
+    
+    .icon4 {
+        min-width: 20px;
+        background-image: url(../img/brands.png);
+        background-position: -140px -75px;
+/*
+        padding-left: 51px;
+        padding-top: 63px;
+*/
+        cursor: pointer;
+    }
+    
+    .icon5 {
+        min-width: 102px;
+        margin: 30px 29px;
+        background-image: url(../img/brands.png);
+        background-position: 0px -146px;
+        cursor: pointer;
+    }
+    
+    .icon6 {
+        min-width: 28px;
+        background-image: url(../img/brands.png);
+        background-position: -158px -146px;
+        cursor: pointer;
+    }
+
+.news__center {
+    display: none;
+}
+    
+    /* FOOTER */
+
+footer {
+  background-position: bottom;
+        background-image: url(../img/blur.jpg);
+        background-repeat: no-repeat;
+}
+
+.footer__nav {
+    display: none;
+}
+
+
+
+.footer__center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 200px;
+    }
+
+    footer p {    
+        margin-top: 20px;
+        font-family: 'Open Sans';
+        font-size: 12px;
+      color: white;
+}
+    
+}

@@ -1,0 +1,118 @@
+@media screen and (min-width: 960px) {
+  
+  .header__center {
+    width: 960px;
+  }
+  
+  .header__row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+  
+  .logo {
+    display: block;
+  }
+  
+  .header-footer__menu {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-top: 0;
+    margin-bottom: 7px;
+    margin-left: 15%;
+  }
+  
+  .slider__title {
+    font-size: 60px;
+  }
+  
+  .slider h2 {
+    font-size: 30px;
+    height: 32px;
+  }
+  
+  .circle__group {
+    margin: 40px 20% 65px 0;
+     -ms-flex-item-align: end;
+     align-self: flex-end;
+  }
+  .slider,
+  .pagination-center,
+  .main__center,
+  .footer__center,
+  .comment__center,
+  .news__center {
+    width: 960px;
+  }
+  
+  .categ__first {
+    display: none;
+  }
+  
+  .categ__second {
+    display: none;
+  }
+  
+  .first {
+    display: block
+  }
+  
+  .second {
+    display: block;
+  }
+  
+    .down__logo {
+      display: block;
+      font-size: 48px;
+       font-family: 'league_gothicregular';
+      color: #4c4c4c;
+  }
+  
+  .down__logo-ER {
+    color: #b9b9b9;
+  }
+  
+  .first__italic {
+    display: block;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: lightgray;
+  }
+  
+  .brands {
+    background: #f9f9f9;
+  }
+  
+  .footer__center {
+    margin: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;  
+    -ms-flex-pack: distribute;  
+    justify-content: space-around;
+    min-height: 125px;
+  }
+  
+  .footer__nav {
+    margin: 0;
+    width: 60%;
+  }
+  
+  .footer__menu {
+    margin: 0;
+  }
+  
+  footer p {
+    margin: 0;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  
+  
+}
