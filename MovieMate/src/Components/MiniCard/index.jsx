@@ -3,7 +3,7 @@ import './style.css';
 
 const MiniCard = ({ id, img, filmName, rating, release, onClick }) => {
     return (
-        <div className="MiniCard">
+        <div className="MiniCard animated flipInX">
             <div>
                 <img src={img} alt="Afisha" className="MiniCard__img"/>
             </div>
