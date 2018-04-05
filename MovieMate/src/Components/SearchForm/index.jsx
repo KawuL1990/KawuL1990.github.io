@@ -12,9 +12,9 @@ export default class SearchForm extends Component {
             <div className="SearchForm">
                 <Search search={search}/>
                 <div className="btnGroup">
-                    <button className="btn__category" onClick={() => {fromCategory('popular')}}>POPULAR</button>
-                    <button className="btn__category" onClick={() => {fromCategory('top_rated')}}>TOP_RATED</button>
-                    <button className="btn__category" onClick={() => {fromCategory('upcoming')}}>UPCOMING</button>
+                    <button className="btn__category" value="popular" onClick={() => {fromCategory('popular')}}>POPULAR</button>
+                    <button className="btn__category" value="top_rated" onClick={() => {fromCategory('top_rated')}}>TOP_RATED</button>
+                    <button className="btn__category" value="upcoming" onClick={() => {fromCategory('upcoming')}}>UPCOMING</button>
                 </div>
                 <WatchList arrFilms={arrFilms} onDelete={onDelete}/>
             </div>

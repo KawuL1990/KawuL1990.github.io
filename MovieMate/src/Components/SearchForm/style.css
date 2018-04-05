@@ -21,9 +21,14 @@
     font-weight: 700;
     outline: none;
     transition: all .1s linear;
+    outline: none;
 }
 .btn__category:hover,
 .btn__category:active{
     background: #2196f3;
     transition: all .1s linear;
+}
+.checkbox{
+    width: 50px;
+    height: 10px;
 }

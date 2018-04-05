@@ -51,7 +51,6 @@ export default class MoviePage extends Component {
             }
         })
         .then(data => {
-            console.log(data)
             const listFilms = data.results.map(item => {
                 return{
                     id: item.id,
