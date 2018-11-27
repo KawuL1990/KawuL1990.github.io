@@ -1,0 +1,15 @@
+.SimilarMovie{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.similarMovie_title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.similarMovieList{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}

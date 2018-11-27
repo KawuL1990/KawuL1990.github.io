@@ -1,0 +1,36 @@
+.CurrentMovie{
+    display: flex;
+    margin-bottom: 20px;
+}
+.information{
+    width: 600px;
+}
+.posterBlock{
+    margin-right: 20px;
+}
+.titleFilm{
+    margin-bottom: 5px;
+}
+.paragraph{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace
+}
+.aboutFilm{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.genre{
+    margin-bottom: 10px;
+}
+.genreItem{
+    margin-right: 10px;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.genreItem:last-child{
+    margin-right: 0;
+}

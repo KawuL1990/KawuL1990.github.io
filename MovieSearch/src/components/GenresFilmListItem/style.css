@@ -1,0 +1,16 @@
+.GenresFilmListItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.genreItemPoster{
+    width: 150px;
+}
+.genresFilmtitle{
+    margin-top: 10px;
+    font-family: fantasy;
+}

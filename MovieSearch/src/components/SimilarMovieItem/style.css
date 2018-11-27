@@ -1,0 +1,31 @@
+.SimilarMovieItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin-bottom: 10px;
+}
+.similarPoster{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.similarTitle{
+    width: 200px;
+    text-align: center;
+}
+.linkMore{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+.SimilarLink{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
