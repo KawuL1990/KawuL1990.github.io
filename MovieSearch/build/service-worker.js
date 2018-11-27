@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MovieMate/build/precache-manifest.e9a41fec502906f255c08598c2a8b02b.js"
+  "/MovieSearch/build/precache-manifest.d32fb2ec91f42a2ecd2ee5138fbbd5eb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MovieMate/build/index.html", {
+workbox.routing.registerNavigationRoute("/MovieSearch/build/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

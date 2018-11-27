@@ -1,14 +1,14 @@
 {
-  "main.css": "/MovieMate/build/static/css/main.9609a56a.chunk.css",
-  "main.js": "/MovieMate/build/static/js/main.38bd1e70.chunk.js",
-  "main.js.map": "/MovieMate/build/static/js/main.38bd1e70.chunk.js.map",
-  "static/js/1.4f92e038.chunk.js": "/MovieMate/build/static/js/1.4f92e038.chunk.js",
-  "static/js/1.4f92e038.chunk.js.map": "/MovieMate/build/static/js/1.4f92e038.chunk.js.map",
-  "runtime~main.js": "/MovieMate/build/static/js/runtime~main.04412f42.js",
-  "runtime~main.js.map": "/MovieMate/build/static/js/runtime~main.04412f42.js.map",
-  "static/media/error.png": "/MovieMate/build/static/media/error.dad5a6a7.png",
-  "static/css/main.9609a56a.chunk.css.map": "/MovieMate/build/static/css/main.9609a56a.chunk.css.map",
-  "index.html": "/MovieMate/build/index.html",
-  "precache-manifest.e9a41fec502906f255c08598c2a8b02b.js": "/MovieMate/build/precache-manifest.e9a41fec502906f255c08598c2a8b02b.js",
-  "service-worker.js": "/MovieMate/build/service-worker.js"
+  "main.css": "/MovieSearch/build/static/css/main.9609a56a.chunk.css",
+  "main.js": "/MovieSearch/build/static/js/main.fa806b65.chunk.js",
+  "main.js.map": "/MovieSearch/build/static/js/main.fa806b65.chunk.js.map",
+  "static/js/1.4f92e038.chunk.js": "/MovieSearch/build/static/js/1.4f92e038.chunk.js",
+  "static/js/1.4f92e038.chunk.js.map": "/MovieSearch/build/static/js/1.4f92e038.chunk.js.map",
+  "runtime~main.js": "/MovieSearch/build/static/js/runtime~main.fb0ecc97.js",
+  "runtime~main.js.map": "/MovieSearch/build/static/js/runtime~main.fb0ecc97.js.map",
+  "static/media/error.png": "/MovieSearch/build/static/media/error.dad5a6a7.png",
+  "static/css/main.9609a56a.chunk.css.map": "/MovieSearch/build/static/css/main.9609a56a.chunk.css.map",
+  "index.html": "/MovieSearch/build/index.html",
+  "precache-manifest.d32fb2ec91f42a2ecd2ee5138fbbd5eb.js": "/MovieSearch/build/precache-manifest.d32fb2ec91f42a2ecd2ee5138fbbd5eb.js",
+  "service-worker.js": "/MovieSearch/build/service-worker.js"
 }
